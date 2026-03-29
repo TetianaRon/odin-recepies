@@ -38,7 +38,7 @@ li{
     padding: 10px 0;
     padding-bottom: 30px;
 }
-.hero *{
+.hero > *{
     padding: 0 30px;
 }
 .hero img{
@@ -64,3 +64,35 @@ li{
     margin: 16px 0;
 }
 
+/*----- Home page -----*/
+
+.home-hero {
+    text-align: center;
+}
+.home-hero h1{
+    font-size: 56px;
+}
+.home-hero p{
+    width: 500px;
+    margin: 0 auto 20px;
+}
+
+/* Recipes List */
+.recipes-list ul {
+    padding-inline-start: 0;
+}
+.recipes-list li{
+    display: block;
+}
+.recipes-list li a{
+    display: block;
+    background-color: rgb(243, 243, 243);
+}
+.recipes-list h2{
+    padding: 30px;
+    margin: 0 0;
+    text-align: center;
+}
+.recipes-list img{
+    width: 100%;
+}
